@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url('assets/teste.svg');
+    /* background: url('/assets/boxes.svg'); */
     max-width: 1920px;
     min-height: 100vh;
     margin: 0 auto;
@@ -21,4 +21,15 @@ body {
     opacity: 0.4;
     background-color: blue;
     border: 2px solid black;
+}
+
+.back {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    background-color: red;
+}
+
+.back img {
+    width: 100%;
 }
